@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>[kevin]'s Website</title>
+    <style>
+      body { font-family: Arial, sans-serif; max-width: 800px;
+             margin: 0 auto; padding: 20px; background: #f5f5f5; color: #333333; }
+      h1   { color: #1F4E79; }
+      h2   { color: #2E75B6; border-bottom: 2px solid #2E75B6; }
+      p    { line-height: 1.6; }
+      
+      .toggle-btn {
+        position: fixed; top: 20px; right: 20px; padding: 10px 15px;
+        background: #1F4E79; color: white; border: none; cursor: pointer;
+        font-weight: bold; border-radius: 5px;
+      }
+      
+      body.dark-mode { background: #121212; color: #e0e0e0; }
+      body.dark-mode h1 { color: #4FA8FF; }
+      body.dark-mode h2 { color: #6BA4FF; border-bottom-color: #6BA4FF; }
+      body.dark-mode a { color: #8AB4F8; }
+      body.dark-mode .toggle-btn { background: #f5f5f5; color: #121212; }
+    </style>
+  </head>
+  <body>
+    <button class="toggle-btn" onclick="document.body.classList.toggle('dark-mode')">Toggle Dark Mode</button>
+
+    <h1>Hi, I'm [kevin]!</h1>
+ 
+    <h2>About Me</h2>
+    <p>[i am very cool and i like to hang outside]</p>
+ 
+    <h2>My Interests</h2>
+    <p>[i like pizza.]</p>
+ 
+    <h2>My Goals for This Course</h2>
+    <p>[to complete this course]</p>
+ 
+    <h2>My GitHub</h2>
+    <p>Check out my projects: 
+      <a href="https://github.com/[Kevin1211-web]">[Kevin1211-web]</a>
+    </p>
+  </body>
+</html>
